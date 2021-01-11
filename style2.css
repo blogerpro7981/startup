@@ -1,0 +1,48 @@
+body {
+	background-image: url(img/bgc.jpg);
+}
+form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+}
+p {
+	display: inline-block;
+}
+a {
+	color: #80b6ba;
+	text-decoration: none;
+}
+
+input[type=email], input[type=password] {
+	border: none;
+	border-bottom: silver 1px solid;
+	margin: 20px;
+	width: 223px;
+	outline: none;
+}
+p, a {
+	margin-top: 0;
+}
+button {
+	border-radius: 0;
+	background-color: #245154;
+	color: white;
+	padding: 10px 50px; 
+	margin-bottom: 20px;
+}
+.sign_in {
+}
+img {
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 30px;
+}
+fieldset {
+	width: 60%;
+	margin: 0 auto;
+	border: none;
+	border-top: silver solid 1px;
+}

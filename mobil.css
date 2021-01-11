@@ -1,0 +1,33 @@
+@media (max-width: 575px) {
+	nav {
+		position: static;
+		padding: 0;
+	}
+	nav a {
+		display: block;
+		border-bottom: solid silver 1px;
+	}
+	header {
+		margin: 0;
+		width: 100%;
+	}
+	.about_company_flex {
+		display: block;
+	}
+	.about_company_flex p {
+		text-align: justify;
+	}
+	.logo {
+		width: 100%;
+	}
+	.team_flex {
+		display: block;
+	}
+	.tarifs_flex {
+		display: block;
+	}
+	ul {
+		width: 80%;
+		margin: 15px auto;
+	}
+}
