@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form lesson</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="img/0098988ef41b8c0d571016c93bd7dd0d.jpg" type="image/x-icon"> 
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="#">
+			<h1>Анкета ученика</h1>
+			<fieldset>
+				<legend>контактная информация</legend>
+				<input type="text" placeholder="введите имя"><br>
+				<input type="text" placeholder="введите номер телефона"><br>
+				<input type="email" placeholder="введите email">
+			</fieldset>
+
+			<fieldset>
+				<legend>личная информация</legend>
+				<label for="age">ваш возраст</label>
+				<input id="age" type="number"><br>
+				<label for="date">дата рождения</label>
+				<input id="date" type="date"><br>
+				<label for="study_type" class="vbnm">по какому курсу занимаетесь</label>
+				<select>
+					<option>scratch</option>
+					<option>python</option>
+					<option>WEB</option>
+					<option>C++</option>
+					<option>figma</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>обратная связь</legend>
+				<label>посоветуете ли вы нас друзьям?</label><br>
+
+				<input id="cheked1" type="radio" name="Aaron">
+				<label for="cheked1" class="radio">да</label>
+
+				<input id="cheked2" type="radio" name="Aaron">
+				<label for="cheked2" class="radio">нет</label>
+
+				<input id="cheked3" type="radio" name="Aaron">
+				<label for="cheked3" class="radio">не знаю</label><br>
+
+				<label for="koment">ocтавте коментарий :)</label>
+				<textarea id="koment"></textarea>
+			</fieldset>
+
+			
+			<input id="check1" type="checkbox">
+			<label class="box" for="check1">разрешить обработку данных</label>
+
+			<input id="check2" type="checkbox">
+			<label class="box" for="check2">отправлять новости на почту</label><br>
+			<button>oтправить</button>
+			<p>нет аккаунта?<a href="../lesson14/index2.html">зарегестрировотся</a></p>
+		</form>
+	</body>
+</html>
