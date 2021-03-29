@@ -3,11 +3,14 @@ body {
 	padding: 0;
 }
 nav {
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	position: fixed;
 	width: 100%;
 	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
 }
 nav a {
 	color: black;
@@ -203,4 +206,7 @@ footer {
 	width: 40%;
 	border: solid 3px #0e5f7d;
 	margin: 2%;
+}
+.burger {
+	display: none;
 }
